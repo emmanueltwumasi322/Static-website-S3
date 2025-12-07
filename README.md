@@ -36,8 +36,7 @@ Step 4: To improve speed and security, I added a CloudFront Distribution service
 <img src="https://i.imgur.com/aSpiy1s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Search website URL:  <br/>
-<img src="https://i.imgur.com/h5qRlFF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Step 5: Search website URL.  <br/>
 <br />
 <br />
 
