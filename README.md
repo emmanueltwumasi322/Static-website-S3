@@ -1,7 +1,5 @@
 <h1>Hosting a Static Website on S3</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
-
 <h2>Description</h2>
 This project demonstrates how I deployed a simple static website using Amazon S3. It highlights the fundamentals of cloud hosting, S3 bucket configuration, and static site deployment.
 <br />
@@ -11,12 +9,13 @@ This project demonstrates how I deployed a simple static website using Amazon S3
 
 - <b>Amazon S3</b> 
 - <b>AWS Management Console</b>
+- <b>HTML</b> 
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
+<h2>Walk-through:</h2>
 
 <p align="center">
 Create an S3 Bucket and upload files: <br/>
