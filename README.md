@@ -20,32 +20,25 @@ This project demonstrates how I deployed a simple static website using Amazon S3
 
 <p align="center">
 Create an S3 Bucket and upload files: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/reF4SgV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Enable static website and uncheck "block public access":  <br/>
+<img src="https://i.imgur.com/AOMoQQN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+To allow the images and other static assets in the S3 bucket to be publicly viewable, I updated the object ownership settings:
+	1.	Navigate to Permissions → Object Ownership, and enable ACLs.
+	2.	Select all uploaded files, choose Actions → Make public using ACL.
+
+This ensures that all objects can be accessed publicly when the static website loads. <br/>
+<img src="https://i.imgur.com/6wMpI5K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Search website URL:  <br/>
+<img src="https://i.imgur.com/h5qRlFF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
